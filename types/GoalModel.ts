@@ -5,10 +5,7 @@ export interface GoalModel {
     orphans: never[]
     dependencies: never[]
     links: Link[]
-    display: Display
-    tool: string
-    istar: string
-    saveDate: Date
+    display: Display[]
     diagram: Diagram
 }
 
@@ -21,6 +18,7 @@ export interface Node extends CustomProperties {
     id: id
     text: string
     type: NodeType
+    parent?: string
     x: number
     y: number
 }
@@ -42,7 +40,7 @@ export interface DisplayItem {
     height?: number
 }
 
-export interface Diagram extends CustomProperties {
+export interface Diagram {
     width: number
     height: number
 }

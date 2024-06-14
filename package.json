@@ -1,7 +1,12 @@
 {
-  "name": "parser",
+  "name": "parser-gm2js",
+  "version": "0.0.1",
+  "author": "Caio Peluti <cpeluti@gmail.com>",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test:unit": "vitest"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "vitest": "^1.6.0"
@@ -11,5 +16,6 @@
   },
   "dependencies": {
     "zod": "^3.23.8"
-  }
+  },
+  "license": "MIT"
 }

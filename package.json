@@ -11,6 +11,9 @@
     "@types/bun": "latest",
     "vitest": "^1.6.0"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },

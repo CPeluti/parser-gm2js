@@ -1,15 +1,5 @@
-# parser
+# Goal Model Parser for JSON
 
-To install dependencies:
+This is a simple parser for Goal Models JSONs that are in the format utilized by the piStar. It uses the Zod lib to validate the structure.
 
-```bash
-bun install
-```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

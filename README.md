@@ -1,4 +1,4 @@
-# Goal Model Parser for JSON
+# Goal Model Parser for JSON ![Github CI](https://github.com/CPeluti/parser-gm2js/actions/workflows/node.js.yml/badge.svg)
 
 This is a simple parser for Goal Models JSONs that are in the format utilized by the piStar. It uses the Zod lib to validate the structure.
 
